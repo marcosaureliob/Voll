@@ -4,14 +4,15 @@ import Container from './components/Container';
 import Rodape from './components/Rodape';
 import Titulo from './components/Titulo';
 
+
 function App() {
   return (
     <>
-      <Cabecalho />
+      <Cabecalho/>
       <Container>
         <Titulo>Área Administrativa</Titulo>
       </Container>
-      <Rodape />
+      <Rodape/>
     </>
   );
 }
